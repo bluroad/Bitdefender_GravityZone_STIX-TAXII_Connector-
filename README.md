@@ -1,4 +1,4 @@
-# GravityZone IOC Connector
+# GravityZone IOC STIX7TAXII Connector 
 
 
 Python connector that imports Indicators of Compromise (IOCs) into the **Bitdefender GravityZone Cloud** console through the Public API (JSON-RPC 2.0, `addToBlocklist` method).
