@@ -168,7 +168,6 @@ __pycache__/
 
 ## Known limitations
 
-- Domains and URLs are not submitted (a limitation of the `addToBlocklist` API).
 - Supported hashes are MD5 and SHA-256.
 - IP rules always use `protocol: any` and `direction: both`, with no port filtering (`portRange`).
 - Automatic removal of expired IOCs (`removeFromBlocklist`) is not implemented.
