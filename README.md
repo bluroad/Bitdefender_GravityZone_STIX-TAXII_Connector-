@@ -13,7 +13,6 @@ Supported sources are **MISP** (including the ACN MISP), **TAXII 2.1** (STIX ind
 |---|---|
 | MD5 / SHA-256 hashes | Blocklist rule `type = hash` |
 | IPs (IPv4 / IPv6) | Blocklist rule `type = connection` (`protocol: any`, `direction: both`, `remoteAddress.ipMask = <ip>`) |
-| Domains and URLs | **Not supported** by `addToBlocklist`: saved to `iocs_not_pushed.csv` |
 
 Private, loopback, link-local, multicast and reserved IPs are discarded before submission.
 
