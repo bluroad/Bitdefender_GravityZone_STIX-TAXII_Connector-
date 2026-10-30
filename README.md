@@ -16,7 +16,7 @@ Supported sources are **MISP** (including the ACN MISP), **TAXII 2.1** (STIX ind
 
 Private, loopback, link-local, multicast and reserved IPs are discarded before submission.
 
-Domains and URLs must be enforced with other GravityZone modules (for example Network Protection / Content Control), not with this connector.
+Domains and URLs must be enforced with other GravityZone modules (for example Network Protection / Content Control).
 
 ## Requirements
 
